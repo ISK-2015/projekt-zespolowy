@@ -1,2 +1,2 @@
 test test 
-sprzedam macka
+sprzedam opla testowy
