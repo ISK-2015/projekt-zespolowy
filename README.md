@@ -4,7 +4,7 @@ Nasza grupa bedzie sie zajmowala stworzeniem strony internetowej z wypozyczalnia
 Bedzie nam potrzebna strona internetowa, baza danych z filmami oraz desktopowa aplikacja
 do zarzadzania filmami i wypozyczeniami. 
 
-Zepsol dzielimy na 3 podgrupy:
+Zespol dzielimy na 3 podgrupy:
 
 app : Patryk Kaminski, Mateusz Swiderski, Pawel Szydlik
 
