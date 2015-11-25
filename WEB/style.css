@@ -21,3 +21,36 @@ body {
   color: #777;
   border-top: 1px solid #e5e5e5;
 }
+
+#form-all
+{
+    margin-left: 300px;
+    margin-top: 100px;
+
+}
+
+#form-all input 
+{
+ display:block;
+ }
+
+ #form1-all
+{
+    margin-left: 700px;
+    margin-top:  -493px;
+   
+}
+#form1-all input 
+{
+ display:block;
+ }
+
+ hr
+ {
+margin-top: -180px;
+margin-left: 560px;
+border: 1px solid black;
+height: 490px;
+width: 0px;
+
+}
