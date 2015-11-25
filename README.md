@@ -13,3 +13,19 @@ web: Lukasz Kajdan, Marcin Hornowski, Adam Tyrala
 database: Michal Jechna, Mateusz Delezuch 
 
 Dla kazdej grupy bedzie zalozony folder, w ktorym beda informacje odnosnie oczekiwan od danej grupy.
+
+www.CBA.pl:
+domena: movie4you.cba.pl
+*************************
+KONTO na CBA:
+L: isk2015pz
+H: PZ2015!@
+*************************
+BAZA cba.pl
+L: iskpz
+H: isk2015PZ
+*************************
+Poczta outlook:
+e-mail: isk2015pz@outlook.com
+L: isk2015pz
+H: PZ2015!@
