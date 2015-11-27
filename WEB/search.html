@@ -5,21 +5,8 @@
     <title>movie4you - wypożyczalnia dvd/blu-ray</title>
     <link href="bootstrap.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-      <script src="modernizr.js"></script>
-
-<script type="text/javascript">
-function showHidden(obj){
-obj = document.getElementById(obj);
-obj.style.display == 'none' ? obj.style.display = '' : obj.style.display = 'none';
-}
-</script>
-
-
-
-
 </head>
 <body>
- 
     <div class="container">
       <div class="header clearfix">
         <nav>
@@ -35,59 +22,17 @@ obj.style.display == 'none' ? obj.style.display = '' : obj.style.display = 'none
       
           <h3 class="text-muted">movie4you</h3>
       </div>
-     
-        
+    
     <form id="search">
-    <div class="form-group">
-     <label>Szukaj </label>
-   <input type="text" class="form-control" id="exampleInputtext" placeholder="Podaj tytuł filmu">
-     <button type="submit" class="btn btn-primary">Szukaj</button>  
-     <a id="link1_1" href="javascript: showHidden('hidden1');showHidden('link1_1');showHidden('link1_2');">Zaawansowane    </a><a id=
-	"link1_2" style="display:none;" href="javascript: showHidden('hidden1');showHidden('link1_1');showHidden('link1_2');">Ukryj</a>
-    
-       
+    <div class="form-group-search">
+		<input type="text" class="form-control" placeholder="tytuł">
+		<button type="submit" class="btn btn-primary btn-block">szukaj</button>  
     </div>
-    </form> 
-        
-        
-   	
-    
-    <div id="hidden1"  style="display:none;">
-    	
- 
-  <div class="form-group">
-     <label>Tytuł:</label>
-     <input type="text" placeholder="">
-  </div>
-      <div class="form-group">
-     <label>Reżyser:</label>
-     <input type="text" placeholder="">
-  </div>
-      <div class="form-group">
-     <label>Gatunek:</label>
-     <input type="text" placeholder="">
-      </div>
-     <div class="form-group">
-     <label>Rok:</label>
-     <input type="text" placeholder="">
-     </div>
-     <div class="form-group">
-     <label>Technologia:</label>
-     <input type="text" placeholder="">
-      <button type="submit">Szukaj</button>  
-  </div>
- </div>
-    	
-    	
-        
-        <br>
-        
-        <footer class="footer">
+    </form>
+
+    <footer class="footer">
         <p> movie4you © 2016 </p>
-      </footer>
-    
-       <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-        <script src="script.js"></script>  
+    </footer>
     </div> <!-- /container -->
 </body>
 </html>
