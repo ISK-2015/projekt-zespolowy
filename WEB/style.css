@@ -1,3 +1,15 @@
+*
+{
+    padding: 0;
+    margin:0;
+}
+
+.container
+{
+    width:1170px;
+    margin: 0 auto;
+}
+
 /* Space out a bit*/
 body {
   padding-top: 20px;
@@ -7,7 +19,8 @@ body {
 
 /* Custom page header */
 .header {
-  padding-bottom: 20px;
+    
+    padding-bottom: 20px;
 }
 
 /* Make the masthead heading the same height as the navigation */
@@ -41,3 +54,18 @@ body {
 #search input {
 	text-align: center;
 }
+
+.form-login {
+	margin-top: 100px;
+	margin-left: 200px;
+}
+
+.form-register {
+ 	
+    margin-right: 250px;
+}
+
+.jumbotron-login .jumbotron {
+	height: 500px;
+}
+
