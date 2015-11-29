@@ -5,6 +5,18 @@
     <title>movie4you - wypożyczalnia dvd/blu-ray</title>
     <link href="bootstrap.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script>
+		function initialize() {
+		var mapProp = {
+		center:new google.maps.LatLng(52.2279009,21.0013141),
+		zoom:15,
+		mapTypeId:google.maps.MapTypeId.ROADMAP
+		};
+		var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
 </head>
 <body>
     <div class="container">
@@ -19,7 +31,18 @@
 			<li><a href="login.html">login/rejestracja</a></li>
           </ul>
         </nav>
-        <h3 class="text-muted">movie4you</h3>
+		<h3 class="text-muted">movie4you</h3>
+		<br>
+		<br>
+		<p>
+			movie4you Sp. z o.o. <br>
+			Aleje Jerozolimskie 81, 00-803 Warszawa, Polska<br>
+			<br>
+			T: (+48 22) 695 09 10<br>
+			F: (+48 22) 695 09 11<br>
+			E: rent@movie4you.com<br>
+		</p>
+		<div id="googleMap" style="width:500px;height:380px;"></div>
       </div>
       <footer class="footer">
         <p> movie4you © 2016 </p>
