@@ -1,0 +1,29 @@
+c:\users\ania\documents\visual studio 2012\Projects\MAGSOFT\MAGSOFT\bin\Debug\MAGSOFT.exe.config
+c:\users\ania\documents\visual studio 2012\Projects\MAGSOFT\MAGSOFT\bin\Debug\MAGSOFT.exe
+c:\users\ania\documents\visual studio 2012\Projects\MAGSOFT\MAGSOFT\bin\Debug\MAGSOFT.pdb
+c:\users\ania\documents\visual studio 2012\Projects\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.csprojResolveAssemblyReference.cache
+c:\users\ania\documents\visual studio 2012\Projects\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.GlowneOkno.resources
+c:\users\ania\documents\visual studio 2012\Projects\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.Properties.Resources.resources
+c:\users\ania\documents\visual studio 2012\Projects\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.csproj.GenerateResource.Cache
+c:\users\ania\documents\visual studio 2012\Projects\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.exe
+c:\users\ania\documents\visual studio 2012\Projects\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.pdb
+c:\users\ania\documents\visual studio 2012\Projects\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.ListaKlientow.resources
+c:\users\ania\documents\visual studio 2012\Projects\MAGSOFT\MAGSOFT\bin\Debug\BDmagsoft.s3db
+c:\users\ania\documents\visual studio 2012\Projects\MAGSOFT\MAGSOFT\bin\Debug\System.Data.SQLite.dll
+C:\Users\Ania\Documents\Visual Studio 2012\Projects\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.testowa.resources
+C:\Users\Ania\documents\visual studio 2012\Projects\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.ListaKontrahentow.resources
+C:\Users\matswi\Desktop\MAGSOFT\MAGSOFT\MAGSOFT\bin\Debug\MAGSOFT.exe.config
+C:\Users\matswi\Desktop\MAGSOFT\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.exe
+C:\Users\matswi\Desktop\MAGSOFT\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.pdb
+C:\Users\matswi\Desktop\MAGSOFT\MAGSOFT\MAGSOFT\bin\Debug\BDmagsoft.s3db
+C:\Users\matswi\Desktop\MAGSOFT\MAGSOFT\MAGSOFT\bin\Debug\MAGSOFT.exe
+C:\Users\matswi\Desktop\MAGSOFT\MAGSOFT\MAGSOFT\bin\Debug\MAGSOFT.pdb
+C:\Users\matswi\Desktop\MAGSOFT\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.csprojResolveAssemblyReference.cache
+C:\Users\matswi\Desktop\MAGSOFT\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.GlowneOkno.resources
+C:\Users\matswi\Desktop\MAGSOFT\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.ListaKlientow.resources
+C:\Users\matswi\Desktop\MAGSOFT\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.ListaKontrahentow.resources
+C:\Users\matswi\Desktop\MAGSOFT\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.Properties.Resources.resources
+C:\Users\matswi\Desktop\MAGSOFT\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.testowa.resources
+C:\Users\matswi\Desktop\MAGSOFT\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.csproj.GenerateResource.Cache
+C:\Users\matswi\Desktop\MAGSOFT\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.NowyKlient.resources
+C:\Users\matswi\Desktop\MAGSOFT\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.EdycjaKlient.resources
