@@ -20,6 +20,15 @@ body {
   font-family: verdana;
 }
 
+.logo img
+{
+  
+}
+
+nav a
+{
+    margin-top: 20px;
+}
 /* Custom page header */
 .header {
     
