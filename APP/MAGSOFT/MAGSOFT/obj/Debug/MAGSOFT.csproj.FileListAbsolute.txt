@@ -30,3 +30,17 @@ C:\Users\matswi\Desktop\MAGSOFT\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.EdycjaKlient.r
 F:\secureed_pen\_PRV\MAGSOFT_0205\MAGSOFT\MAGSOFT\MAGSOFT\bin\Debug\MAGSOFT.exe.config
 F:\secureed_pen\_PRV\MAGSOFT_0205\MAGSOFT\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.exe
 F:\secureed_pen\_PRV\MAGSOFT_0205\MAGSOFT\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.pdb
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\MAGSOFT\MAGSOFT\bin\Debug\MAGSOFT.exe.config
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.exe
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.pdb
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\MAGSOFT\MAGSOFT\bin\Debug\MAGSOFT.exe
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\MAGSOFT\MAGSOFT\bin\Debug\MAGSOFT.pdb
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.csprojResolveAssemblyReference.cache
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.EdycjaKlient.resources
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.GlowneOkno.resources
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.ListaKlientow.resources
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.ListaKontrahentow.resources
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.NowyKlient.resources
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.Properties.Resources.resources
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.testowa.resources
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\MAGSOFT\MAGSOFT\obj\Debug\MAGSOFT.csproj.GenerateResource.Cache

@@ -78,9 +78,11 @@
     <Compile Include="Klasy\Adres.cs" />
     <Compile Include="Klasy\Bank.cs" />
     <Compile Include="Klasy\Faktura.cs" />
+    <Compile Include="Klasy\Film.cs" />
     <Compile Include="Klasy\GrupaTowarow.cs" />
     <Compile Include="Klasy\Kontrahent.cs" />
     <Compile Include="Klasy\Magazyn.cs" />
+    <Compile Include="Klasy\Ocena.cs" />
     <Compile Include="Klasy\OperatorSystemu.cs" />
     <Compile Include="Klasy\Pozycja.cs" />
     <Compile Include="Klasy\Pracownik.cs" />
