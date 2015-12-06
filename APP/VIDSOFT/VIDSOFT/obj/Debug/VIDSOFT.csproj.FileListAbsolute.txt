@@ -1,0 +1,46 @@
+c:\users\ania\documents\visual studio 2012\Projects\VIDSOFT\VIDSOFT\bin\Debug\VIDSOFT.exe.config
+c:\users\ania\documents\visual studio 2012\Projects\VIDSOFT\VIDSOFT\bin\Debug\VIDSOFT.exe
+c:\users\ania\documents\visual studio 2012\Projects\VIDSOFT\VIDSOFT\bin\Debug\VIDSOFT.pdb
+c:\users\ania\documents\visual studio 2012\Projects\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.csprojResolveAssemblyReference.cache
+c:\users\ania\documents\visual studio 2012\Projects\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.GlowneOkno.resources
+c:\users\ania\documents\visual studio 2012\Projects\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.Properties.Resources.resources
+c:\users\ania\documents\visual studio 2012\Projects\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.csproj.GenerateResource.Cache
+c:\users\ania\documents\visual studio 2012\Projects\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.exe
+c:\users\ania\documents\visual studio 2012\Projects\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.pdb
+c:\users\ania\documents\visual studio 2012\Projects\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.ListaKlientow.resources
+c:\users\ania\documents\visual studio 2012\Projects\VIDSOFT\VIDSOFT\bin\Debug\BDmagsoft.s3db
+c:\users\ania\documents\visual studio 2012\Projects\VIDSOFT\VIDSOFT\bin\Debug\System.Data.SQLite.dll
+C:\Users\Ania\Documents\Visual Studio 2012\Projects\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.testowa.resources
+C:\Users\Ania\documents\visual studio 2012\Projects\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.ListaKontrahentow.resources
+C:\Users\matswi\Desktop\VIDSOFT\VIDSOFT\VIDSOFT\bin\Debug\VIDSOFT.exe.config
+C:\Users\matswi\Desktop\VIDSOFT\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.exe
+C:\Users\matswi\Desktop\VIDSOFT\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.pdb
+C:\Users\matswi\Desktop\VIDSOFT\VIDSOFT\VIDSOFT\bin\Debug\BDmagsoft.s3db
+C:\Users\matswi\Desktop\VIDSOFT\VIDSOFT\VIDSOFT\bin\Debug\VIDSOFT.exe
+C:\Users\matswi\Desktop\VIDSOFT\VIDSOFT\VIDSOFT\bin\Debug\VIDSOFT.pdb
+C:\Users\matswi\Desktop\VIDSOFT\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.csprojResolveAssemblyReference.cache
+C:\Users\matswi\Desktop\VIDSOFT\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.GlowneOkno.resources
+C:\Users\matswi\Desktop\VIDSOFT\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.ListaKlientow.resources
+C:\Users\matswi\Desktop\VIDSOFT\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.ListaKontrahentow.resources
+C:\Users\matswi\Desktop\VIDSOFT\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.Properties.Resources.resources
+C:\Users\matswi\Desktop\VIDSOFT\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.testowa.resources
+C:\Users\matswi\Desktop\VIDSOFT\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.csproj.GenerateResource.Cache
+C:\Users\matswi\Desktop\VIDSOFT\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.NowyKlient.resources
+C:\Users\matswi\Desktop\VIDSOFT\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.EdycjaKlient.resources
+F:\secureed_pen\_PRV\VIDSOFT_0205\VIDSOFT\VIDSOFT\VIDSOFT\bin\Debug\VIDSOFT.exe.config
+F:\secureed_pen\_PRV\VIDSOFT_0205\VIDSOFT\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.exe
+F:\secureed_pen\_PRV\VIDSOFT_0205\VIDSOFT\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.pdb
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\VIDSOFT\VIDSOFT\bin\Debug\VIDSOFT.exe.config
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.exe
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.pdb
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\VIDSOFT\VIDSOFT\bin\Debug\VIDSOFT.exe
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\VIDSOFT\VIDSOFT\bin\Debug\VIDSOFT.pdb
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.csprojResolveAssemblyReference.cache
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.EdycjaKlient.resources
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.GlowneOkno.resources
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.ListaKlientow.resources
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.ListaKontrahentow.resources
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.NowyKlient.resources
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.Properties.Resources.resources
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.testowa.resources
+C:\Users\mswiders\Documents\projekt-zespolowy\APP\VIDSOFT\VIDSOFT\obj\Debug\VIDSOFT.csproj.GenerateResource.Cache
