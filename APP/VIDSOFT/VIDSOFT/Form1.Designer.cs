@@ -54,39 +54,40 @@
             // 
             // ListaKlientowMenuItem
             // 
-            this.ListaKlientowMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("ListaKlientowMenuItem.Image")));
+            this.ListaKlientowMenuItem.Image = global::VIDSOFT.Properties.Resources.users_alt_64;
             this.ListaKlientowMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.ListaKlientowMenuItem.Name = "ListaKlientowMenuItem";
-            this.ListaKlientowMenuItem.Size = new System.Drawing.Size(85, 95);
-            this.ListaKlientowMenuItem.Text = "Lista klientów";
+            this.ListaKlientowMenuItem.Size = new System.Drawing.Size(85, 83);
+            this.ListaKlientowMenuItem.Text = "Klienci";
             this.ListaKlientowMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.ListaKlientowMenuItem.Click += new System.EventHandler(this.ListaKlientowMenuItem_Click);
             // 
             // ListaKontrahentowMenuItem1
             // 
-            this.ListaKontrahentowMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("ListaKontrahentowMenuItem1.Image")));
+            this.ListaKontrahentowMenuItem1.Image = global::VIDSOFT.Properties.Resources.bussiness_card_64;
             this.ListaKontrahentowMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.ListaKontrahentowMenuItem1.Name = "ListaKontrahentowMenuItem1";
-            this.ListaKontrahentowMenuItem1.Size = new System.Drawing.Size(85, 95);
+            this.ListaKontrahentowMenuItem1.Size = new System.Drawing.Size(85, 83);
             this.ListaKontrahentowMenuItem1.Text = "Kontrahenci";
             this.ListaKontrahentowMenuItem1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.ListaKontrahentowMenuItem1.Click += new System.EventHandler(this.ListaKontrahentowMenuItem1_Click);
             // 
             // oProgramieToolStripMenuItem
             // 
-            this.oProgramieToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("oProgramieToolStripMenuItem.Image")));
+            this.oProgramieToolStripMenuItem.Image = global::VIDSOFT.Properties.Resources.about_64;
             this.oProgramieToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.oProgramieToolStripMenuItem.Name = "oProgramieToolStripMenuItem";
-            this.oProgramieToolStripMenuItem.Size = new System.Drawing.Size(85, 95);
+            this.oProgramieToolStripMenuItem.Size = new System.Drawing.Size(85, 83);
             this.oProgramieToolStripMenuItem.Text = "O Programie";
             this.oProgramieToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.oProgramieToolStripMenuItem.Click += new System.EventHandler(this.oProgramieToolStripMenuItem_Click);
             // 
             // ZamknijMenuItem
             // 
-            this.ZamknijMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("ZamknijMenuItem.Image")));
+            this.ZamknijMenuItem.Image = global::VIDSOFT.Properties.Resources.cancel_64;
             this.ZamknijMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.ZamknijMenuItem.Name = "ZamknijMenuItem";
-            this.ZamknijMenuItem.Size = new System.Drawing.Size(85, 95);
+            this.ZamknijMenuItem.Size = new System.Drawing.Size(85, 83);
             this.ZamknijMenuItem.Text = "Zamknij";
             this.ZamknijMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.ZamknijMenuItem.Click += new System.EventHandler(this.ZamknijMenuItem_Click);
@@ -97,7 +98,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(683, 472);
             this.Controls.Add(this.menuStrip1);
             this.DoubleBuffered = true;

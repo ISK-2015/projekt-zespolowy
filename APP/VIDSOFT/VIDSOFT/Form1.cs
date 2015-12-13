@@ -43,5 +43,10 @@ namespace VIDSOFT
             OknoPotomne.Show();
         }
 
+        private void oProgramieToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OProgramie OknoPotomne = new OProgramie();
+            OknoPotomne.Show();
+        }
     }
 }
