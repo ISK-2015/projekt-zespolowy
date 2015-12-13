@@ -14,11 +14,16 @@ database: Michal Jechna, Mateusz Delezuch
 
 Dla kazdej grupy bedzie zalozony folder, w ktorym beda informacje odnosnie oczekiwan od danej grupy.
 *************************
-Utworzono na www.CBA.pl:
--konto hostingowe
--domena: movie4you.cba.pl
--BAZA cba.pl
--FTP
+W zwiazku z przeniesieniem strony na inny serwer i zaczeciu pracy na Wordpressie poniżej informacje:
+
+nowa strona jest pod adresem : http://movie4you.justforyou.com.pl/
+
+dla bazodanowców:
+nazwa bazy:18659907_0000002
+login:18659907_0000002
+haslo : zapytajcie Lukasza
+https://serwer1585870.home.pl/sql
+
 *************************
 Poczta outlook:
 e-mail: isk2015pz@outlook.com
