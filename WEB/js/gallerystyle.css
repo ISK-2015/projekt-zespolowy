@@ -1,0 +1,84 @@
+/* Gallery Styles */
+
+#motioncontainer {
+/*margin:0 auto;  Uncomment this line if you wish to center the gallery on page */
+width: 130%; /* Set to gallery width, in px or percentage */
+height: 200px; /* Set to gallery height */
+}
+
+#motioncontainer ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+#motioncontainer li{
+display: inline;
+}
+
+#motioncontainer a img {
+border: 1px solid #cccccc; /* Set image border color */
+width: 138px;
+height: 200px
+   
+}
+
+#motioncontainer a:hover img {
+border: 3px solid navy; /* Set image border hover color */
+}
+
+#statusdiv {
+background-color: lightyellow;
+border: 1px solid gray;
+padding: 2px;
+position: absolute; /* Stop Editing Gallery Styles */
+left: -300px;
+visibility: hidden;
+}
+
+#motioncontainer a:hover {
+color: red; /* Dummy definition to overcome IE bug */
+}
+/* End Gallery Styles */
+
+/* Gallery Styles */
+
+#motioncontainer1 {
+/*margin:0 auto;  Uncomment this line if you wish to center the gallery on page */
+width: 230%; /* Set to gallery width, in px or percentage */
+height: 600px; /* Set to gallery height */
+}
+
+#motioncontainer1 ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+#motioncontainer1 li{
+display: inline;
+}
+
+#motioncontainer1 a img {
+border: 4px solid #cccccc; /* Set image border color */
+width: 440px;
+height: 600px
+   
+}
+
+#motioncontainer1 a:hover img {
+border: 3px solid navy; /* Set image border hover color */
+}
+
+#statusdiv {
+background-color: lightyellow;
+border: 1px solid gray;
+padding: 2px;
+position: absolute; /* Stop Editing Gallery Styles */
+left: -300px;
+visibility: hidden;
+}
+
+#motioncontainer1 a:hover {
+color: red; /* Dummy definition to overcome IE bug */
+}

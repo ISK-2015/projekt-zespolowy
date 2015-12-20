@@ -12,11 +12,23 @@
 
 /* Space out a bit*/
 body {
-  padding-top: 20px;
+ 
+   background-image: url('obrazki/.jpg');
+ 
+    padding-top: 20px;
   padding-bottom: 20px;
   font-family: verdana;
 }
 
+.logo img
+{
+  
+}
+
+nav a
+{
+    margin-top: 20px;
+}
 /* Custom page header */
 .header {
     
@@ -69,3 +81,19 @@ body {
 	height: 500px;
 }
  
+
+
+#motioncontainer
+{
+    margin-left: 104px;
+        
+}
+#motioncontainer1
+{
+    margin-left: 100px;
+}
+.text_c ,h3
+{
+    color:#1b6d85;
+    font-size:30px;
+}
