@@ -14,7 +14,7 @@ database: Michal Jechna, Mateusz Delezuch
 
 Dla kazdej grupy bedzie zalozony folder, w ktorym beda informacje odnosnie oczekiwan od danej grupy.
 *************************
-W zwiazku z przeniesieniem strony na inny serwer i zaczeciu pracy na Wordpressie poniżej informacje:
+W zwiazku z przeniesieniem strony na inny serwer, garć informacji:
 
 nowa strona jest pod adresem : http://movie4you.justforyou.com.pl/
 
