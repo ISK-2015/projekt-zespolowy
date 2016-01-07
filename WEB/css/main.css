@@ -215,3 +215,16 @@ textarea {
 .nav > li > a:focus{
 	background-color: transparent;
 }
+
+.carousel-inner {
+	position: static;
+}
+
+.carousel-inner > item {
+	position: relative;
+	width: 100%;
+}
+
+section#slider img {
+	margin: 0 auto;
+}
