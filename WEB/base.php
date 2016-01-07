@@ -10,6 +10,7 @@
 ?>
 
 
+
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -74,11 +75,13 @@ if(mysql_num_rows($wynik) > 0) {
     echo "<table cellpadding=\"2\" border=1>"; 
     while($r = mysql_fetch_assoc($wynik)) { 
         echo "<tr>"; 
+		echo "<td>".$r['id_movie']."</td>"; 
         echo "<td>".$r['orginal_title']."</td>"; 
         echo "<td>".$r['translate_title']."</td>"; 
+		echo "<td>".$r['carrier']."</td>";
+		echo "<td>".$r['duration']."</td>";
         echo "<td> 
-       <a href=\"index.php?a=del&amp;id={$r['id']}\">DEL</a> 
-       <a href=\"index.php?a=edit&amp;id={$r['id']}\">EDIT</a> 
+      
        </td>"; 
         echo "</tr>"; 
     } 
