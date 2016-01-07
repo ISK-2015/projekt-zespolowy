@@ -69,12 +69,12 @@ nav a
 
 .form-login {
 	margin-top: 100px;
-	margin-left: 200px;
+	margin-left: 400px;
 }
 
 .form-register {
  	
-    margin-right: 250px;
+ margin-left: 400px;
 }
 
 .jumbotron-login .jumbotron {
@@ -96,4 +96,11 @@ nav a
 {
     color:#1b6d85;
     font-size:30px;
+}
+
+.error{
+    color: red;
+    margin-top:10px;
+    margin-bottom: 10px;
+    
 }

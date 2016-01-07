@@ -46,13 +46,13 @@
 				}
 				else 
 				{
-					$_SESSION['blad'] = '<span style="color:red">Nieprawid³owy login lub has³o!</span>';
+					$_SESSION['blad'] = '<span style="color:red">NieprawidÅ‚owy login lub hasÅ‚o!</span>';
 					header('Location: index.php');
 				}
 				
 			} else {
 				
-				$_SESSION['blad'] = '<span style="color:red">Nieprawid³owy login lub has³o!</span>';
+				$_SESSION['blad'] = '<span style="color:red">NieprawidÅ‚owy login lub hasÅ‚o!</span>';
 				header('Location: index.php');
 				
 			}
