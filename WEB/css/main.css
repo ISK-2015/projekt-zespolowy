@@ -194,3 +194,24 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+.navbar-default {
+	box-shadow: none;
+	background-color: rgba(0,0,0,0.5);
+	border: none;
+}
+
+.nav > li > a {
+	text-transform: uppercase;
+	color: white;
+	font-size: 1.1em;
+	text-shadow: 1px 1px 1px black;
+	-webkit-text-shadow: 1px 1px 1px black;
+	-moz-text-shadow: 1px 1px 1px black;
+	padding-top: 15px;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus{
+	background-color: transparent;
+}
