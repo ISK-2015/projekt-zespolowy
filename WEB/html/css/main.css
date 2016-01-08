@@ -215,3 +215,42 @@ textarea {
 .nav > li > a:focus{
 	background-color: transparent;
 }
+
+.carousel-inner {
+	position: static;
+}
+
+.carousel-inner > item {
+	position: relative;
+	width: 100%;
+}
+
+section#slider img {
+	margin: 0 auto;
+}
+
+section#parallax {
+	height: 600px;
+	background-image: url(../img/mad_max_fury_road.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#price {
+	height: 400px;
+	/*background-color: #70A13E;*/
+}
+
+.footer {
+	background-color: #3E87A1;
+}
+
+.contact {
+	/*background-color: #A13E3E;*/
+}
+
+#logo {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
