@@ -227,4 +227,33 @@ textarea {
 
 section#slider img {
 	margin: 0 auto;
+<<<<<<< HEAD:WEB/css/main.css
+=======
+}
+
+section#parallax {
+	height: 600px;
+	background-image: url(../img/mad_max_fury_road.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#price {
+	height: 400px;
+	/*background-color: #70A13E;*/
+}
+
+.footer {
+	background-color: #3E87A1;
+}
+
+.contact {
+	/*background-color: #A13E3E;*/
+}
+
+#logo {
+	padding-bottom: 10px;
+	padding-top: 10px;
+>>>>>>> f93b0d53e0d4da1cf2d4eb072fe5f56b43ac7558:WEB/html/css/main.css
 }
