@@ -28,7 +28,7 @@ namespace Movie4You
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            string MyConnectionString = "Server=serwer1585870.home.pl;Database=18659907_0000002;Uid=18659907_0000002;Pwd=#bazalukasza;";
+            string MyConnectionString = "Server=serwer1585870.home.pl;Database=18659907_0000002;Uid=18659907_0000002;Pwd="+textBox1.Text+";";
             MySqlConnection connection = new MySqlConnection(MyConnectionString);
             connection.Open();
             try
@@ -55,7 +55,7 @@ namespace Movie4You
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string MyConnectionString = "Server=serwer1585870.home.pl;Database=18659907_0000002;Uid=18659907_0000002;Pwd=#bazalukasza;";
+            string MyConnectionString = "Server=serwer1585870.home.pl;Database=18659907_0000002;Uid=18659907_0000002;Pwd=" + textBox1.Text + ";";
             MySqlConnection connection = new MySqlConnection(MyConnectionString);
             connection.Open();
             try
@@ -82,7 +82,7 @@ namespace Movie4You
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string MyConnectionString = "Server=serwer1585870.home.pl;Database=18659907_0000002;Uid=18659907_0000002;Pwd=#bazalukasza;";
+            string MyConnectionString = "Server=serwer1585870.home.pl;Database=18659907_0000002;Uid=18659907_0000002;Pwd=" + textBox1.Text + ";";
             MySqlConnection connection = new MySqlConnection(MyConnectionString);
             connection.Open();
             try
