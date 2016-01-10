@@ -30,9 +30,10 @@ namespace Movie4You
         {
             string MyConnectionString = "Server=serwer1585870.home.pl;Database=18659907_0000002;Uid=18659907_0000002;Pwd="+textBox1.Text+";";
             MySqlConnection connection = new MySqlConnection(MyConnectionString);
-            connection.Open();
+            
             try
             {
+                connection.Open();
                 MySqlCommand cmd = connection.CreateCommand();
                 cmd.CommandText = "select * FROM tb_client";
                 MySqlDataAdapter adap = new MySqlDataAdapter(cmd);
@@ -57,9 +58,9 @@ namespace Movie4You
         {
             string MyConnectionString = "Server=serwer1585870.home.pl;Database=18659907_0000002;Uid=18659907_0000002;Pwd=" + textBox1.Text + ";";
             MySqlConnection connection = new MySqlConnection(MyConnectionString);
-            connection.Open();
             try
             {
+                connection.Open();
                 MySqlCommand cmd = connection.CreateCommand();
                 cmd.CommandText = "select * FROM tb_movies";
                 MySqlDataAdapter adap = new MySqlDataAdapter(cmd);
@@ -84,9 +85,9 @@ namespace Movie4You
         {
             string MyConnectionString = "Server=serwer1585870.home.pl;Database=18659907_0000002;Uid=18659907_0000002;Pwd=" + textBox1.Text + ";";
             MySqlConnection connection = new MySqlConnection(MyConnectionString);
-            connection.Open();
             try
             {
+                connection.Open();
                 MySqlCommand cmd = connection.CreateCommand();
                 cmd.CommandText = "select * FROM tb_user";
                 MySqlDataAdapter adap = new MySqlDataAdapter(cmd);
