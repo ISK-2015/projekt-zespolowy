@@ -1,7 +1,7 @@
-w³aœnie!
-brakuje pliku connect.php, bo tam by³y dane do bazy, wiêc jego na githubie nie bêdzie (mam nadzieje, ¿e ju¿ nikt nie pope³ni tego b³êdu)
+ï»¿wÅ‚aÅ›nie!
+brakuje pliku connect.php, bo tam byÅ‚y dane do bazy, wiÄ™c jego na githubie nie bÄ™dzie (mam nadzieje, Å¼e juÅ¼ nikt nie popeÅ‚ni tego bÅ‚Ä™du)
 
 one more time
-testowy u¿ytkownik, do sprawdzenia logowania to
+testowy uÅ¼ytkownik, do sprawdzenia logowania to
 login:user1234
-has³o:password
+hasÅ‚o:password
