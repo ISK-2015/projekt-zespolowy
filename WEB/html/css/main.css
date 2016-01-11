@@ -51,24 +51,6 @@ textarea {
 
 
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ==========================================================================
    Media Queries
    ========================================================================== */
 
@@ -195,10 +177,23 @@ textarea {
     }
 }
 
-.navbar-default {
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.navbar-default {	
 	box-shadow: none;
 	background-color: rgba(0,0,0,0.5);
 	border: none;
+	min-height: 80px;
+	padding-top: 20px;
+	transition: 1s all ease;
+}
+
+.nav-effect {
+	min-height: 40px;
+	padding-top: 0px;
 }
 
 .nav > li > a {
@@ -208,31 +203,27 @@ textarea {
 	text-shadow: 1px 1px 1px black;
 	-webkit-text-shadow: 1px 1px 1px black;
 	-moz-text-shadow: 1px 1px 1px black;
-	padding-top: 15px;
 }
 
 .nav > li > a:hover,
 .nav > li > a:focus{
 	background-color: transparent;
 }
-
-.carousel-inner {
-	position: static;
+.carousel-inner{
+	height: 100%;
 }
 
 .carousel-inner > item {
 	position: relative;
-	width: 100%;
 }
 
 section#slider img {
 	margin: 0 auto;
-<<<<<<< HEAD:WEB/css/main.css
-=======
+	width: 100%;
 }
 
-section#parallax {
-	height: 600px;
+.parallax {
+	height: 400px;
 	background-image: url(../img/mad_max_fury_road.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -240,20 +231,73 @@ section#parallax {
 }
 
 #price {
-	height: 400px;
-	/*background-color: #70A13E;*/
+	background-color: #70A13E;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .footer {
 	background-color: #3E87A1;
 }
 
-.contact {
-	/*background-color: #A13E3E;*/
+.contact-form {
+	background-color: #A13E3E;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 #logo {
 	padding-bottom: 10px;
 	padding-top: 10px;
->>>>>>> f93b0d53e0d4da1cf2d4eb072fe5f56b43ac7558:WEB/html/css/main.css
+	height: 250px;
+}
+
+.login_place {
+	height: 600px;
+	padding-top: 300px;
+}
+
+.something {
+	padding-bottom: 200px;
+}
+
+.img-logo {
+	height: 90px!important;
+}
+
+.last-price{
+	padding-top: 20px;
+}
+
+.contact-title {
+	padding-bottom: 20px;
+	color: white;
+}
+
+.parallax1 {
+	height: 400px;
+	background-image: url(../img/grown_ups_2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#login,
+#register,
+#search,
+#base,
+#user {
+	background-color: #A13E3E;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 120px;
+}
+
+
+#search input,
+#login input,
+#register input
+{
+	text-align: center;
 }

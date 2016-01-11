@@ -1,34 +1,4 @@
-<!doctype html>
-<html class="no-js" lang="pl">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>movie4you - wypożyczalnia dvd/blu-ray</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-		<link rel="stylesheet" href="html/css/bootstrap.css">
-        <link rel="stylesheet" href="html/css/normalize.min.css">
-        <link rel="stylesheet" href="html/css/main.css">
-
-        <script src="html/js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-
-        <header>
-			<nav class="navbar navbar-default navbar-fixed-top">
-				<div class="container">							
-					<ul class="nav nav-justified">
-						<li><a href="x">movie4you</a></li>
-						<li><a href="x">cennik</a></li>
-						<li><a href="x">katalog</a></li>
-						<li><a href="x">szukaj</a></li>
-						<li><a href="x">kontakt</a></li>
-						<li><a href="x">zaloguj</a></li>
-					</ul>
-				</div>				
-			</nav>
-		</header>
+﻿{include file='header.html'}
 		
 		<section id="slider" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
@@ -43,9 +13,6 @@
 				</div>
 				<div class="item center">
 					<img src="html/img/transformers_age_of_extinction.jpg">
-				</div>
-				<div class="item center">
-					<img src="html/img/grown_ups_2.jpg">
 				</div>
 				<div class="item center">
 					<img src="html/img/about_time.jpg">
@@ -73,31 +40,32 @@
 				<li data-target="#slider" data-slide-to="4"></li>
 				<li data-target="#slider" data-slide-to="5"></li>
 				<li data-target="#slider" data-slide-to="6"></li>
-				<li data-target="#slider" data-slide-to="7"></li>
 		</section>
 		
 		<section id="price" class="price">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4">
+						<center><img class="img-logo" src="html/img/DVD_logo.png"></img><center>
 						<h4 class="text-center">
 						2015 - 10zł<br>
-						2014-2012 -8zł<br>
-						2011-... - 6zł<br>
+						2014 - 2012 - 8zł<br>
+						2011 - ... - 6zł<br>
 						</h4>
 					</div>
 					<div class="col-md-4">
+						<center><img class="img-logo" src="html/img/Blu-ray_logo.png"></img></center>
 						<h4 class="text-center">
 						2015 - 15zł<br>
-						2014-2012 -12zł<br>
-						2011-... - 9zł<br>
+						2014 - 2012 - 12zł<br>
+						2011 - ... - 9zł<br>
 						</h4>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 last-price">
 						<h4 class="text-center">
-						Czas na zwrot: 4 dni<br>
+						czas na zwrot: 4 dni<br>
 						kara za dzień zwłoki: 2zł<br>
-						maksymalna ilośc filmów do wyożyczenia na raz: 3<br>
+						maksymalna ilośc filmów do wypożyczenia na raz: 3<br>
 						zniszczenie płyty: 100zł<br>
 						zniszczenie pudełka: 10zł<br>
 						długość rezerwacji: 1 dzień<br>
@@ -109,11 +77,11 @@
 		<section id="parallax" class="parallax">
 		</section>
 		
-		<section id="contact" class="contact">
-			<h3 class="text-center">Formularz kontaktowy</h3>
+		<section id="contact-form" class="contact-form">		
 				<div class="container">
-					<div class="row">
+					<div class="row">						
 						<div class="col-md-8 col-md-offset-2">
+							<h3 class="text-center contact-title">Formularz kontaktowy</h3>
 							<form id="form" action="">
 								<div class="form-group">
 									<input class="form-control" type="text" placeholder="Imię" name="name">
@@ -125,7 +93,7 @@
 									<textarea class="form-control" placeholder="Wiadomość" name="message"></textarea>
 								</div>
 								<div class="form-group">
-									<input class="btn btn-default" type="submit" value="Wyślij">
+									<center><input class="btn btn-default" type="submit" value="Wyślij"></center>
 								</div>
 							</form>
 						</div>
@@ -133,14 +101,11 @@
 				</div>
 		</section>
 		
-		<footer class="footer">
+		<section id="parallax1" class="parallax1">
+		</section>
+		
+		<section class="footer">
 			<center><a href="index.html" class="text-center"><img id="logo" src="html/img/logo.png" alt="logo m4u" /></a></center>			
-		</footer> 
-		<p class="text-center" style="padding-bottom: 10px; padding-top: 20px;"> movie4you © 2016 </p>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="html/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
-		<script src="html/js/bootstrap.min.js"></script>
-        <script src="html/js/main.js"></script>
-    </body>
-</html>
+		</section> 
+		
+{include file='footer.html'}
