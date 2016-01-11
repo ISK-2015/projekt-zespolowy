@@ -1,0 +1,44 @@
+﻿<!doctype html>
+<html class="no-js" lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>movie4you - wypożyczalnia dvd/blu-ray</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="html/css/bootstrap.css">
+        <link rel="stylesheet" href="html/css/normalize.min.css">
+        <link rel="stylesheet" href="html/css/main.css">
+
+        <script src="html/js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body> 
+	
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-collapse collapse">
+				<ul class="nav nav-justified">
+					<li><a href="index.php">movie4you</a></li>
+					<li><a href="price.php">cennik</a></li>
+					<li><a href="base.php">katalog</a></li>
+					<li><a href="search.php">szukaj</a></li>
+					<li><a href="contact.php">kontakt</a></li>
+					<li><a href="login.php">zaloguj</a></li>
+					<li><a href="user.php">{$smarty.session.user_session}</a>{$smarty.session.logout}</li>
+				</ul>
+				
+			</div>
+		</div>	
+		
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">MENU</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+	</nav>
+</header>
