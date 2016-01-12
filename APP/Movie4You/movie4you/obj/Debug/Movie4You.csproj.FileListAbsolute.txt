@@ -40,3 +40,6 @@ C:\Users\Szatan\Source\Repos\projekt-zespolowy\APP\Movie4You\Movie4You\obj\Debug
 C:\Users\Szatan\Source\Repos\projekt-zespolowy\APP\Movie4You\Movie4You\obj\Debug\Movie4You.csproj.GenerateResource.Cache
 C:\Users\Szatan\Source\Repos\projekt-zespolowy\APP\Movie4You\Movie4You\obj\Debug\Movie4You.MainForm.resources
 C:\Users\Szatan\Source\Repos\projekt-zespolowy\APP\Movie4You\Movie4You\obj\Debug\Movie4You.TempLoginForm.resources
+C:\Users\Maciej\Desktop\GITHUB\projekt-zespolowy\APP\Movie4You\Movie4You\bin\Debug\Movie4You.exe.config
+C:\Users\Maciej\Desktop\GITHUB\projekt-zespolowy\APP\Movie4You\Movie4You\obj\Debug\Movie4You.exe
+C:\Users\Maciej\Desktop\GITHUB\projekt-zespolowy\APP\Movie4You\Movie4You\obj\Debug\Movie4You.pdb
