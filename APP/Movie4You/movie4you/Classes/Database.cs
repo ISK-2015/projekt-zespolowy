@@ -4,6 +4,7 @@ using System.Linq;
 using System.Data;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 
 namespace Movie4You
@@ -76,6 +77,38 @@ namespace Movie4You
             }
 
         }
+        /* do poprawienia bo coś nie działa
+        public DataSet Insert(string user, string pass, string email, string name, string surname, string town, string street, string past_cod, string phone_number)
+        {
+            if (_Opener())
+            {
+                try
+                {
+                    MySqlCommand cmd = connection.CreateCommand();
+                    cmd.CommandText = "INSERT INTO tb_user(user,pass,email,name,surname,town,street,past_cod,phone_number) VALUES (@user,@pass,@email,@name,@surname,@town,@street,@past_cod,@phone_number)";
+                    cmd.Prepare();
+                    cmd.Parameters.AddWithValue("@user", user);
+                    cmd.Parameters.AddWithValue("@pass", pass);
+                    cmd.Parameters.AddWithValue("@email", email);
+                    cmd.Parameters.AddWithValue("@name", name);
+                    cmd.Parameters.AddWithValue("@surname", surname);
+                    cmd.Parameters.AddWithValue("@town", town);
+                    cmd.Parameters.AddWithValue("@street", street);
+                    cmd.Parameters.AddWithValue("@past_cod", past_cod);
+                    cmd.Parameters.AddWithValue("@phone_number", phone_number);
+                    cmd.ExecuteNonQuery();
+                }
+                catch (MySqlException ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+            else
+            {
+                return null;
+            }
+        }
+        */
         private bool _Opener()
         {
             if (connection.State == ConnectionState.Open)

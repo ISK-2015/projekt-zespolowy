@@ -13,22 +13,30 @@ namespace Movie4You
 {
     public partial class MainForm : Form
     {
+#region CONSTRUCTORS
         private string _dbpass;
+        //private string _selecteduser;
         public Database database;
         public void dbpass(string pass)
         {
             _dbpass = pass;
             database = new Database(_dbpass);
         }
+        public void selecteduser(string us)
+        {
+            label1.Text = us;
+        }
+        
+        #endregion
         //public bool dbpasscheck()
         //{
 
-            //if (_dbpass == "err")
-            //{ return false; }
-            //else
-            //{ return true; }
+        //if (_dbpass == "err")
+        //{ return false; }
+        //else
+        //{ return true; }
         //}
-        
+
         public MainForm()
         {
             InitializeComponent();
@@ -39,25 +47,28 @@ namespace Movie4You
 
         }
 
-        private void LoadData()
-        {
-      
-        }
+#region BUTTON CODE
         private void button1_Click(object sender, EventArgs e)
         {
             dataGridView1.DataSource = database.Select("*", "tb_client").Tables[0].DefaultView;
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
-            dataGridView2.DataSource = database.Select("*", "tb_movies").Tables[0].DefaultView;
+            dataGridView1.DataSource = database.Select("*", "tb_movies").Tables[0].DefaultView;
         }
-
         private void button3_Click(object sender, EventArgs e)
         {
-            dataGridView3.DataSource = database.Select("*", "tb_user").Tables[0].DefaultView;
+            dataGridView1.DataSource = database.Select("*", "tb_user").Tables[0].DefaultView;
         }
-
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Enabled = false;
+            UserSelect US = new UserSelect(this, _dbpass);
+            US.TopLevel = true;
+            US.ShowDialog();
+        }
+        #endregion
+#region DATAGRID CODE
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             //string user = dataGridView1.SelectedRows[0].Cells[4].Value.ToString() +"_"+ dataGridView1.SelectedRows[0].Cells[5].Value.ToString();
@@ -66,11 +77,8 @@ namespace Movie4You
             //label3.Text = userid;
             
         }
-
-        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-        }
-
+        #endregion
+#region Strip Menu
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             About AboutWindow = new About();
@@ -81,5 +89,8 @@ namespace Movie4You
         {
             Application.Exit();
         }
+        #endregion
+
+
     }
 }
