@@ -287,6 +287,8 @@ section#slider img {
 #register,
 #search,
 #base,
+#price1,
+#contact,
 #user {
 	background-color: #A13E3E;
     color: white;
@@ -300,4 +302,8 @@ section#slider img {
 #register input
 {
 	text-align: center;
+}
+
+.con1 {
+	padding-top: 100px;
 }
