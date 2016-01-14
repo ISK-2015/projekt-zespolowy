@@ -58,3 +58,5 @@ C:\Users\mjechna\Desktop\movie4you\Movie4You\obj\Debug\Movie4You.TempLoginForm.r
 C:\Users\mjechna\Desktop\movie4you\Movie4You\obj\Debug\Movie4You.csproj.GenerateResource.Cache
 C:\Users\mjechna\Desktop\movie4you\Movie4You\obj\Debug\Movie4You.UserSelect.resources
 C:\Users\mjechna\Desktop\movie4you\Movie4You\obj\Debug\Movie4You.NewUser.resources
+C:\Users\Szatan\Source\Repos\projekt-zespolowy\APP\Movie4You\Movie4You\obj\Debug\Movie4You.NewUser.resources
+C:\Users\Szatan\Source\Repos\projekt-zespolowy\APP\Movie4You\Movie4You\obj\Debug\Movie4You.UserSelect.resources

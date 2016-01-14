@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.buttonClose = new System.Windows.Forms.Button();
+            this.M4Y = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // buttonClose
@@ -41,11 +43,43 @@
             this.buttonClose.UseVisualStyleBackColor = true;
             this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
             // 
+            // M4Y
+            // 
+            this.M4Y.Dock = System.Windows.Forms.DockStyle.Top;
+            this.M4Y.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.M4Y.Location = new System.Drawing.Point(0, 0);
+            this.M4Y.Name = "M4Y";
+            this.M4Y.Padding = new System.Windows.Forms.Padding(5);
+            this.M4Y.Size = new System.Drawing.Size(284, 40);
+            this.M4Y.TabIndex = 1;
+            this.M4Y.Text = "Movie4You";
+            this.M4Y.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox1.HideSelection = false;
+            this.textBox1.ImeMode = System.Windows.Forms.ImeMode.Off;
+            this.textBox1.Location = new System.Drawing.Point(0, 43);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.textBox1.Size = new System.Drawing.Size(284, 72);
+            this.textBox1.TabIndex = 2;
+            this.textBox1.Text = "Aplikacja do zarządzania wypożyczalnią video.\r\nProjekt zaliczeniowy IV roku studi" +
+    "ów informatycznych.\r\nAutorzy:\r\nPatryk Kamiński, Mateusz Świderski, Michał Jechna" +
+    ", Paweł Szydlik";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.M4Y);
             this.Controls.Add(this.buttonClose);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -55,11 +89,14 @@
             this.Text = "O programie";
             this.TopMost = true;
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button buttonClose;
+        private System.Windows.Forms.Label M4Y;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

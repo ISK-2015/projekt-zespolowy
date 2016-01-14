@@ -62,9 +62,7 @@ namespace Movie4You
         }
         private void button4_Click(object sender, EventArgs e)
         {
-            this.Enabled = false;
-            UserSelect US = new UserSelect(this, _dbpass);
-            US.TopLevel = true;
+            UserSelect US = new UserSelect(this);
             US.ShowDialog();
         }
         #endregion
