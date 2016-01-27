@@ -2,11 +2,41 @@
 
 <section id="base" class="base">
 	<div class="container">
-		<div class="row">
-			<div class="">
-			</div>
-		</div>
-	</div>
+		<div class="base">
+ 
+	
+<table class = "table table-condensed">
+  
+  <thead>
+    <tr >
+      <th>#</th>
+      <th>Tytuł</th>
+      <th>Reżyser</th>
+      <th>Gatunek</th>
+	  <th>Ocena</th>
+	   <th>Nośnik</th>
+   </tr>
+  </thead>
+  <tbody>
+    <tr >
+     {section name=a loop=$tb_movies}
+	  <td>{$tb_movies[a].id_movie}</td>
+      <td>{$tb_movies[a].translate_title}</td>
+      <td>({$tb_movies[a].direction})</td>
+	  <td>{$tb_movies[a].genre}</td>
+	  <td >({$tb_movies[a].rating})</td>
+      <td>{$tb_movies[a].carrier}</td>
+	  
+    </tr>
+   
+  </tbody>
+
+  	{/section} 
+  
+  </table>	 
+</div>
+</div>
 </section>
+
 
 {include file='footer.html'}
