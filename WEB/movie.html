@@ -1,0 +1,45 @@
+﻿{include file='header.html'}
+<section id="base" class="base">
+	<div class="container">
+		<div class="row">
+		
+	<div class="col-md-3">
+	
+</div>	
+	<div class="col-md-6">
+   {section name=a loop=$tb_movies} 
+	
+	<h1>{$tb_movies[a].orginal_title}({$tb_movies[a].production})</h1>
+	
+		<h4><p>{$tb_movies[a].duration} min. </p></h4>
+	</br>
+	{$tb_movies[a].description} 
+	
+	</br>
+	</br>
+
+</div>
+		
+
+<div class="row">
+<div class="col-md-8">
+<p>	reżyseria	{$tb_movies[a].direction}</p>
+<p>	scenariusz	{$tb_movies[a].scenario} </p>
+<p>	gatunek		{$tb_movies[a].genre} 	</p>	
+<p>	produkcja	{$tb_movies[a].country_production} 	</p>
+<p>	premiera	{$tb_movies[a].add_date} </p>
+<p>	nosnik  	{$tb_movies[a].carrier} </p>		
+	{/section} 
+
+	 <button type="text" class="btn btn-primary">Wypożycz </button>
+	<a href="{$id1}"> następny </a>
+
+	</div>
+	</div>
+	</div>
+	</div>
+
+</section>
+
+
+{include file='footer.html'}
