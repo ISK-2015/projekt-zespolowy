@@ -307,3 +307,49 @@ section#slider img {
 .con1 {
 	padding-top: 100px;
 }
+
+
+.error{
+
+color: yellow;
+
+}
+.user_logo{
+
+color: yellow;
+
+}
+#keywords {
+  margin: 0 auto;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+#keywords thead {
+  cursor: pointer;
+  background: #990033;
+}
+#keywords thead tr th { 
+ text-align: left;
+ font-weight: bold;
+ 
+}
+
+#keywords thead tr th.headerSortUp, #keywords thead tr th.headerSortDown {
+  background: #330033;
+}
+
+#keywords tbody tr td {
+  color: #wait;
+  text-align: left;
+
+
+  }
+#keywords tbody tr td.lalign {
+  text-align: left;
+}
+.col-md-3 img{
+
+padding-bottom:120px;
+
+}
