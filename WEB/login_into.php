@@ -21,26 +21,38 @@ $connect = @new mysqli($host,$db_user,$db_password,$db_name); //³¹czenie z baz¹,
 		$password = htmlentities($password, ENT_QUOTES, "UTF-8");
 				
 		if ($result = @$connect->query(	// zapytanie, sprawdzaj¹ce, czy jest taki klient
-		sprintf("SELECT * FROM tb_client WHERE user='%s' AND pass='%s'",
+		sprintf("SELECT * FROM tb_client WHERE user='%s'",
 		mysqli_real_escape_string($connect,$login), // te¿ chroni przed wstrzykiwaniem sql
 		mysqli_real_escape_string($connect,$password))))
 		{
 			$how_many_users = $result->num_rows;
 			if($how_many_users>0)
 			{
-				$_SESSION['online'] = true; //flaga
 				$line = $result->fetch_assoc();
-				$_SESSION['user_session'] = $line['user'];
+				if (password_verify($password, $line['pass']))
+			   {
+				$_SESSION['online'] = true; //flaga
+				
+				$a = $line['user'];
+				$_SESSION['user_session'] = '<a href="user.php">'.$a.'</a>'; // po zalogowaniu wyœwietla nazwê u¿ytkownika w menu po prawej stronie
 				
 				unset($_SESSION['error_session']);
 				$result->free_result(); // zwalniam pamiêæ
 				header('Location: index.php');
-			} 
-			else
+			   } 
+				else
+				{
+				$_SESSION['error_session'] = true; // ! nie chce mi tego wyœwietliæ !!!!!
+					header('Location: login.php');
+				}
+			}
+		   else
 			{
 				$_SESSION['error_session'] = true; // ! nie chce mi tego wyœwietliæ !!!!!
 				header('Location: login.php');
 			}
+		
+		
 		}
 		
 		$connect->close(); // zamyka po³¹czenie, je¿eli siê po³¹czy³o
