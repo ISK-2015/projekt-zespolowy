@@ -60,3 +60,16 @@ C:\Users\mjechna\Desktop\movie4you\Movie4You\obj\Debug\Movie4You.UserSelect.reso
 C:\Users\mjechna\Desktop\movie4you\Movie4You\obj\Debug\Movie4You.NewUser.resources
 C:\Users\Szatan\Source\Repos\projekt-zespolowy\APP\Movie4You\Movie4You\obj\Debug\Movie4You.NewUser.resources
 C:\Users\Szatan\Source\Repos\projekt-zespolowy\APP\Movie4You\Movie4You\obj\Debug\Movie4You.UserSelect.resources
+C:\Users\Patryk\Documents\GitHub\projekt-zespolowy\APP\Movie4You\Movie4You\bin\Debug\Movie4You.exe.config
+C:\Users\Patryk\Documents\GitHub\projekt-zespolowy\APP\Movie4You\Movie4You\obj\Debug\Movie4You.exe
+C:\Users\Patryk\Documents\GitHub\projekt-zespolowy\APP\Movie4You\Movie4You\obj\Debug\Movie4You.pdb
+C:\Users\Patryk\Documents\GitHub\projekt-zespolowy\APP\Movie4You\Movie4You\bin\Debug\Movie4You.exe
+C:\Users\Patryk\Documents\GitHub\projekt-zespolowy\APP\Movie4You\Movie4You\bin\Debug\Movie4You.pdb
+C:\Users\Patryk\Documents\GitHub\projekt-zespolowy\APP\Movie4You\Movie4You\obj\Debug\Movie4You.csprojResolveAssemblyReference.cache
+C:\Users\Patryk\Documents\GitHub\projekt-zespolowy\APP\Movie4You\Movie4You\obj\Debug\Movie4You.About.resources
+C:\Users\Patryk\Documents\GitHub\projekt-zespolowy\APP\Movie4You\Movie4You\obj\Debug\Movie4You.MainForm.resources
+C:\Users\Patryk\Documents\GitHub\projekt-zespolowy\APP\Movie4You\Movie4You\obj\Debug\Movie4You.NewUser.resources
+C:\Users\Patryk\Documents\GitHub\projekt-zespolowy\APP\Movie4You\Movie4You\obj\Debug\Movie4You.Properties.Resources.resources
+C:\Users\Patryk\Documents\GitHub\projekt-zespolowy\APP\Movie4You\Movie4You\obj\Debug\Movie4You.TempLoginForm.resources
+C:\Users\Patryk\Documents\GitHub\projekt-zespolowy\APP\Movie4You\Movie4You\obj\Debug\Movie4You.UserSelect.resources
+C:\Users\Patryk\Documents\GitHub\projekt-zespolowy\APP\Movie4You\Movie4You\obj\Debug\Movie4You.csproj.GenerateResource.Cache
