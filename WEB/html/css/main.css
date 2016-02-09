@@ -189,6 +189,7 @@ textarea {
 	min-height: 80px;
 	padding-top: 20px;
 	transition: 1s all ease;
+	font-weight: 800;
 }
 
 .nav-effect {
@@ -352,4 +353,14 @@ color: yellow;
 
 padding-bottom:120px;
 
+}
+
+*
+{
+	font-family: Monda;
+}
+
+#price1 
+{
+	overflow: hidden;
 }
