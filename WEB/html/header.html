@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html class="no-js" lang="pl">
     <head>
         <meta charset="utf-8">
@@ -7,26 +7,33 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+		<link rel="stylesheet" href="html/css/animations.css">
 		<link rel="stylesheet" href="html/css/bootstrap.css">
         <link rel="stylesheet" href="html/css/normalize.min.css">
         <link rel="stylesheet" href="html/css/main.css">
-
+		<link href='https://fonts.googleapis.com/css?family=Monda:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+ 
+		<script type="text/javascript" src="js/jquery-latest.js"></script> 
+		<script type="text/javascript" src="js/jquery.tablesorter.js"></script> 		
         <script src="html/js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body> 
-	
+
+
+</head>
+<body> 
+    
 <header>
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-collapse collapse">
 				<ul class="nav nav-justified">
+					<li></li> <!-- puste miejsce, żeby sie wyśrodkowało menu -->
 					<li><a href="index.php">movie4you</a></li>
 					<li><a href="price.php">cennik</a></li>
 					<li><a href="base.php">katalog</a></li>
 					<li><a href="search.php">szukaj</a></li>
 					<li><a href="contact.php">kontakt</a></li>
 					<li><a href="login.php">zaloguj</a></li>
-					<li><a href="user.php">{$smarty.session.user_session}</a>{$smarty.session.logout}</li>
+					<li>{$smarty.session.user_session}{$smarty.session.logout}</li>
 				</ul>
 				
 			</div>
