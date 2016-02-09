@@ -328,21 +328,22 @@ color: yellow;
 
 #keywords thead {
   cursor: pointer;
-  background: #990033;
 }
+
 #keywords thead tr th { 
- text-align: left;
+ text-align: center;
  font-weight: bold;
  
 }
 
 #keywords thead tr th.headerSortUp, #keywords thead tr th.headerSortDown {
-  background: #330033;
+  background: black;
+  color: white;
 }
 
 #keywords tbody tr td {
   color: #wait;
-  text-align: left;
+  text-align: center;
 
 
   }
@@ -363,4 +364,9 @@ padding-bottom:120px;
 #price1 
 {
 	overflow: hidden;
+}
+
+.col-md-8.text-center > a {
+    padding-right: 20px;
+	padding-left: 20px;
 }

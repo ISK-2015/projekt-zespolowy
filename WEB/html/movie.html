@@ -2,40 +2,35 @@
 <section id="base" class="base">
 	<div class="container">
 		<div class="row">
-		
-	<div class="col-md-3">
-	
-</div>	
-	<div class="col-md-6">
-   {section name=a loop=$tb_movies} 
-	
-	<h1>{$tb_movies[a].orginal_title}({$tb_movies[a].production})</h1>
-	
-		<h4><p>{$tb_movies[a].duration} min. </p></h4>
-	</br>
-	{$tb_movies[a].description} 
-	
-	</br>
-	</br>
+			<div class="col-md-4 text-center">	
+				tu będzie obrazek jak Mateusz sie zmobilizuje i wrzuci mi linki
+			</div>
+			<div class="col-md-8 text-center">
+		   {section name=a loop=$tb_movies} 
+			
+			<h1><strong>{$tb_movies[a].orginal_title}</strong> </h1>
+			<h4>({$tb_movies[a].production})</h4>
+			
+			<h5> <p>{$tb_movies[a].duration} min. </p></h5>
+			</br>
+			{$tb_movies[a].description} 
+			</br>
+			</br>
+			<p>	<strong>reżyseria :</strong>	{$tb_movies[a].direction}</p>
+			<p>	<strong>scenariusz :</strong>	{$tb_movies[a].scenario} </p>
+			<p>	<strong>gatunek :</strong>	{$tb_movies[a].genre} 	</p>	
+			<p>	<strong>produkcja :</strong>	{$tb_movies[a].country_production} 	</p>
+			<p>	<strong>premiera :</strong>	{$tb_movies[a].add_date} </p>
+			<p>	<strong>nośnik :</strong> 	{$tb_movies[a].carrier} </p>		
+			{/section} 
 
-</div>
-		
+			</br>
+			<a href="{$id3}" style="color:white"><< poprzedni</a>
+			<button type="text" class="btn btn-default">Wypożycz</button>
+			<a href="{$id1}" style="color:white">następny >></a>
+			
 
-<div class="row">
-<div class="col-md-8">
-<p>	reżyseria	{$tb_movies[a].direction}</p>
-<p>	scenariusz	{$tb_movies[a].scenario} </p>
-<p>	gatunek		{$tb_movies[a].genre} 	</p>	
-<p>	produkcja	{$tb_movies[a].country_production} 	</p>
-<p>	premiera	{$tb_movies[a].add_date} </p>
-<p>	nosnik  	{$tb_movies[a].carrier} </p>		
-	{/section} 
-
-	 <button type="text" class="btn btn-primary">Wypożycz </button>
-	<a href="{$id1}"> następny </a>
-
-	</div>
-	</div>
+			</div>
 	</div>
 	</div>
 
