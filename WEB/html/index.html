@@ -1,4 +1,4 @@
-﻿{include file='header.html'}
+{include file='header.html'}
 		
 		<section id="slider" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
@@ -43,8 +43,8 @@
 		</section>
 		
 		<section id="price" class="price">
-			<div class="container">
-				<div class="row">
+			<div class="container animatedParent">
+				<div class="row animated bounceIn">
 					<div class="col-md-4">
 						<center><img class="img-logo" src="html/img/DVD_logo.png"></img><center>
 						<h4 class="text-center">
@@ -79,21 +79,21 @@
 		
 		<section id="contact-form" class="contact-form">		
 				<div class="container">
-					<div class="row">						
-						<div class="col-md-8 col-md-offset-2">
+					<div class="row animatedParent">						
+						<div class="col-md-8 col-md-offset-2 animated pulse">
 							<h3 class="text-center contact-title">Formularz kontaktowy</h3>
-							<form id="form" action="">
+							<form id="form" action=""  method="post">
 								<div class="form-group">
-									<input class="form-control" type="text" placeholder="Imię" name="name">
+									<input class="form-control" type="text" placeholder="Imię" name="imienazwisko">
 								</div>
 								<div class="form-group">
-									<input class="form-control" type="e-mail" placeholder="E-mail" name="e-mail">
+									<input class="form-control" type="email" placeholder="E-mail" name="email">
 								</div>
 								<div class="form-group">
-									<textarea class="form-control" placeholder="Wiadomość" name="message"></textarea>
+									<textarea class="form-control" placeholder="Wiadomość" name="trescwiadomosci"></textarea>
 								</div>
 								<div class="form-group">
-									<center><input class="btn btn-default" type="submit" value="Wyślij"></center>
+									<center><input class="btn btn-default" type="submit" name="submit" value="Wyślij"></center>
 								</div>
 							</form>
 						</div>
@@ -104,8 +104,8 @@
 		<section id="parallax1" class="parallax1">
 		</section>
 		
-		<section class="footer">
-			<center><a href="index.html" class="text-center"><img id="logo" src="html/img/logo.png" alt="logo m4u" /></a></center>			
+		<section class="footer animatedParent">
+			<center><a href="index.html" class="text-center"><img id="logo" class="animated wiggle" src="html/img/logo.png" alt="logo m4u" /></a></center>			
 		</section> 
 		
 {include file='footer.html'}
