@@ -10,5 +10,10 @@ $smarty = new Smarty();
 $smarty -> template_dir = 'html';
 $smarty -> compile_dir = 'temp';
 $smarty -> cache_dir = 'cache';
+
+
+
+
+
 $smarty -> display('index.html');
 ?>

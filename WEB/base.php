@@ -20,7 +20,7 @@ $connect = new mysqli($host,$db_user,$db_password,$db_name); //łšczenie z baz�
 			//zmiana kodowania na utf-8		
 	 $connect->set_charset("utf8");
 			
-	$query = "SELECT * FROM `tb_movies` WHERE 1 ORDER BY `id_movie`";
+	$query = "SELECT * FROM tb_movies ORDER BY id_movie";
 
 		$wynikowa = array();
 		try {

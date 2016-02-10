@@ -21,7 +21,7 @@ $connect = @new mysqli($host,$db_user,$db_password,$db_name); //³¹czenie z baz¹,
 		$password = htmlentities($password, ENT_QUOTES, "UTF-8");
 				
 		if ($result = @$connect->query(	// zapytanie, sprawdzaj¹ce, czy jest taki klient
-		sprintf("SELECT * FROM tb_client WHERE user='%s'",
+	sprintf("SELECT * FROM tb_client WHERE user='%s'",
 		mysqli_real_escape_string($connect,$login), // te¿ chroni przed wstrzykiwaniem sql
 		mysqli_real_escape_string($connect,$password))))
 		{

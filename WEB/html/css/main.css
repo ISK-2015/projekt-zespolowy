@@ -337,8 +337,8 @@ color: yellow;
 }
 
 #keywords thead tr th.headerSortUp, #keywords thead tr th.headerSortDown {
-  background: black;
-  color: white;
+  background: white;
+  color: #A13E3E;
 }
 
 #keywords tbody tr td {
@@ -366,7 +366,65 @@ padding-bottom:120px;
 	overflow: hidden;
 }
 
-.col-md-8.text-center > a {
+.col-md-7.text-center > a {
     padding-right: 20px;
 	padding-left: 20px;
+}
+
+.name-pokemon {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+}
+
+#pokemon {
+	background-color: #A13E3E;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.pokemon1 {
+	text-align: center;
+}
+
+.btn-default {
+    background-color: #A13E3E!important;
+    border-color: #ccc!important;
+    color: white!important;
+}
+
+.carousel-caption
+{
+	padding-bottom: 10%!important;
+}
+
+.background1
+{
+	background: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+}
+
+.background2 {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    color: white;
+    margin-left: 50%;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+	text-shadow: 1px 1px 1px black;
+	-webkit-text-shadow: 1px 1px 1px black;
+	-moz-text-shadow: 1px 1px 1px black;
+}
+
+@media only screen and (max-width: 700px) 
+{
+    .background1 > p, .background2 > p
+	{
+        display: none;
+    }
+	
+	.carousel-caption
+	{
+		padding-bottom: 0%!important;
+	}
 }

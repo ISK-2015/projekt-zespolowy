@@ -2,38 +2,36 @@
 <section id="base" class="base">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4 text-center">	
-				tu będzie obrazek jak Mateusz sie zmobilizuje i wrzuci mi linki
+			<div class="col-md-3 text-center">	
+				{section name=a loop=$tb_movies}
+				<img src="{$tb_movies[a].img}" width=400px;>
 			</div>
-			<div class="col-md-8 text-center">
-		   {section name=a loop=$tb_movies} 
+			<div class="col-md-7 col-md-offset-2 text-center"> 
 			
-			<h1><strong>{$tb_movies[a].orginal_title}</strong> </h1>
-			<h4>({$tb_movies[a].production})</h4>
-			
-			<h5> <p>{$tb_movies[a].duration} min. </p></h5>
-			</br>
-			{$tb_movies[a].description} 
-			</br>
-			</br>
-			<p>	<strong>reżyseria :</strong>	{$tb_movies[a].direction}</p>
-			<p>	<strong>scenariusz :</strong>	{$tb_movies[a].scenario} </p>
-			<p>	<strong>gatunek :</strong>	{$tb_movies[a].genre} 	</p>	
-			<p>	<strong>produkcja :</strong>	{$tb_movies[a].country_production} 	</p>
-			<p>	<strong>premiera :</strong>	{$tb_movies[a].add_date} </p>
-			<p>	<strong>nośnik :</strong> 	{$tb_movies[a].carrier} </p>		
-			{/section} 
+				<h1><strong>{$tb_movies[a].orginal_title}</strong> </h1>
+				<h4>({$tb_movies[a].production})</h4>
+				
+				<h5> <p>{$tb_movies[a].duration} min. </p></h5>
+				</br>
+				{$tb_movies[a].description} 
+				</br>
+				</br>
+				<p>	<strong>reżyseria :</strong>	{$tb_movies[a].direction}</p>
+				<p>	<strong>scenariusz :</strong>	{$tb_movies[a].scenario} </p>
+				<p>	<strong>gatunek :</strong>	{$tb_movies[a].genre} 	</p>	
+				<p>	<strong>produkcja :</strong>	{$tb_movies[a].country_production} 	</p>
+				<p>	<strong>premiera :</strong>	{$tb_movies[a].add_date} </p>
+				<p>	<strong>nośnik :</strong> 	{$tb_movies[a].carrier} </p>		
+				{/section} 
 
-			</br>
-			<a href="{$id3}" style="color:white"><< poprzedni</a>
-			<button type="text" class="btn btn-default">Wypożycz</button>
-			<a href="{$id1}" style="color:white">następny >></a>
+				</br>
+				<a href="{$id3}" style="color:white"><< poprzedni</a>
+				<button type="text" class="btn btn-default">Wypożycz</button>
+				<a href="{$id1}" style="color:white">następny >></a>
 			
-
 			</div>
+		</div>
 	</div>
-	</div>
-
 </section>
 
 

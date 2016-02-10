@@ -44,9 +44,13 @@ $connect = new mysqli($host,$db_user,$db_password,$db_name); //łšczenie z baz�
 		    };
 			
 			$id++;
-			$id1 = "movie.php?id=".$id;			
+			$id1 = "movie.php?id=".$id;	
+
+			$id2 = $id - 2;
+			$id3 = "movie.php?id=".$id2;	
 	}
 
+$smarty -> assign('id3', $id3);	
 $smarty -> assign('id1', $id1);	
 $smarty -> assign('tb_movies', $tablica);
 $smarty -> display('movie.html');
