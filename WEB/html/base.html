@@ -22,7 +22,7 @@
 		    {section name=a loop=$tb_movies}
 				<td><a href='movie.php?id={$tb_movies[a].id_movie}' class="btn btn-default">Wyświetl film</a>
 				<td>{$tb_movies[a].id_movie}</td>
-				<td>{$tb_movies[a].translate_title}</td>
+				<td><a style="color:white" href='movie.php?id={$tb_movies[a].id_movie}'>{$tb_movies[a].translate_title}</a></td>
 				<td>({$tb_movies[a].direction})</td>
 				<td>{$tb_movies[a].genre}</td>
 				<td >({$tb_movies[a].rating})</td>

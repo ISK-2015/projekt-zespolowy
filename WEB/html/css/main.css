@@ -416,7 +416,7 @@ padding-bottom:120px;
 	-moz-text-shadow: 1px 1px 1px black;
 }
 
-@media only screen and (max-width: 700px) 
+@media only screen and (max-width: 800px) 
 {
     .background1 > p, .background2 > p
 	{
@@ -425,6 +425,6 @@ padding-bottom:120px;
 	
 	.carousel-caption
 	{
-		padding-bottom: 0%!important;
+		padding-bottom: 5%!important;
 	}
 }
