@@ -1,128 +1,157 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Data;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
+using System.Data;
 using MySql.Data.MySqlClient;
+using System.Configuration;
 
 namespace Movie4You
 {
-    public class Database
+    public sealed class Database
     {
-        private MySqlConnection connection;
-        private string connectionstring;
-        private string _exception;
+        private MySqlConnection conn;
+        private MySqlConnectionStringBuilder connbuild;
 
-        public Database(string pass)
+        private string lastexceptionmessage;
+        private int lastexceptionnumber;
+
+        //
+        //USTAWIENIA WPISANE DO KODU, DLA WYGODY
+        //
+        
+
+        private string _server = "serwer1585870.home.pl";
+        private string _database = "18659907_0000002";
+        private string _user = "18659907_0000002";
+        
+        public Database(string server, string database, string user, string password)
         {
-            connectionstring = @"Server=serwer1585870.home.pl;Database=18659907_0000002;Uid=18659907_0000002;Pwd=" + pass + ";";
-            connection = new MySqlConnection(connectionstring);
+            connbuild = new MySqlConnectionStringBuilder();
+            connbuild.Server = server;
+            connbuild.Database = database;
+            connbuild.UserID = user;
+            connbuild.Password = password;
+
+
+            conn = new MySqlConnection(connbuild.ConnectionString);
         }
+        public Database(string password)
+        {
+            connbuild = new MySqlConnectionStringBuilder();
+            connbuild.Server = _server;
+            connbuild.Database = _database;
+            connbuild.UserID = _user;
+            connbuild.Password = password;
+            connbuild.Keepalive = 30;
+
+            conn = new MySqlConnection(connbuild.ConnectionString);
+        }
+        public bool TryConnect()
+        {
+            bool _rt = true;
+            try
+            { this.Connect(); }
+            catch(MySql.Data.MySqlClient.MySqlException ex)
+            {
+                _rt = false;
+                lastexceptionmessage = ex.Message;
+                lastexceptionnumber = ex.Number;
+            }
+            return _rt;
+        }
+        public void ChangePassword(string pass)
+        {
+            conn = null;
+            connbuild.Password = pass;
+            conn = new MySqlConnection(connbuild.ConnectionString);
+        }
+
+        #region INTERFACE IMPLEMENTATION
+        public void Connect()
+        {
+            if(conn.State == ConnectionState.Closed)
+            {
+                conn.Open();
+            }
+        }
+        public void Disconnect()
+        {
+            if(conn.State == ConnectionState.Open)
+            {
+                conn.Close();
+            }
+
+        }
+        public DataSet Select(string what, string where)
+        {
+            if(conn.State == ConnectionState.Open)
+            {
+                MySqlCommand cmd = conn.CreateCommand();
+                cmd.CommandText = "SELECT " + what + " FROM " + where;
+                MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+                DataSet data = new DataSet();
+                adapter.Fill(data);
+                return data;
+            }
+            else
+            {
+                return null;
+            }
+        }
+        public DataSet Select(string what, string where, string order)
+        {
+            if (conn.State == ConnectionState.Open)
+            {
+                MySqlCommand cmd = conn.CreateCommand();
+                cmd.CommandText = "SELECT " + what + " FROM " + where + " ORDER BY " + order + " DESC";
+                MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+                DataSet data = new DataSet();
+                adapter.Fill(data);
+                return data;
+            }
+            else
+            {
+                return null;
+            }
+        }
+        public void Delete()
+        {
+
+        }
+        public void Update()
+        {
+
+        }
+        public void Insert()
+        {
+
+        }
+        #endregion
+
+
         public ConnectionState State
         {
             get
             {
-                return connection.State;
+                return conn.State;
             }
         }
-        public string Exception
+        public string ExceptionMessage
         {
             get
             {
-                return _exception;
+                return lastexceptionmessage;
             }
         }
-        public void Open()
+        public int ExceptionNumber
         {
-            connection.Open();
+            get
+            {
+                return lastexceptionnumber;
+            }
         }
-        public void Close()
-        {
-            connection.Close();
-        }
-        public bool CheckConnection()
-        {
-            bool _result = true;
-            try
-            {
-                connection.Open();
-                connection.Close();
-            }
-            catch (MySqlException ex)
-            {
-                _exception = ex.ToString();
-                _result = false;
-                connection = null;
-            }
-            return _result;
-        }
-        //bardzo wstępna wersja, w sumie tylko przedstawia koncepcję jak bym to rozwiązał
-        //potrzeba jeszcze przeciążania, koniecznie sprawdzania poprawności wprowadzonych danych i obsługi błędów
-        public DataSet Select(string what, string table)
-        {
-            if (_Opener())
-            {
-                MySqlCommand cmd = connection.CreateCommand();
-                cmd.CommandText = "SELECT " + what + " FROM " + table;
-                MySqlDataAdapter adap = new MySqlDataAdapter(cmd);
-                DataSet ds = new DataSet();
-                adap.Fill(ds);
-                return ds;
-            }
-            else
-            {
-                return null;
-            }
 
-        }
-        /* do poprawienia bo coś nie działa
-        public DataSet Insert(string user, string pass, string email, string name, string surname, string town, string street, string past_cod, string phone_number)
-        {
-            if (_Opener())
-            {
-                try
-                {
-                    MySqlCommand cmd = connection.CreateCommand();
-                    cmd.CommandText = "INSERT INTO tb_user(user,pass,email,name,surname,town,street,past_cod,phone_number) VALUES (@user,@pass,@email,@name,@surname,@town,@street,@past_cod,@phone_number)";
-                    cmd.Prepare();
-                    cmd.Parameters.AddWithValue("@user", user);
-                    cmd.Parameters.AddWithValue("@pass", pass);
-                    cmd.Parameters.AddWithValue("@email", email);
-                    cmd.Parameters.AddWithValue("@name", name);
-                    cmd.Parameters.AddWithValue("@surname", surname);
-                    cmd.Parameters.AddWithValue("@town", town);
-                    cmd.Parameters.AddWithValue("@street", street);
-                    cmd.Parameters.AddWithValue("@past_cod", past_cod);
-                    cmd.Parameters.AddWithValue("@phone_number", phone_number);
-                    cmd.ExecuteNonQuery();
-                }
-                catch (MySqlException ex)
-                {
-                    MessageBox.Show(ex.Message);
-                }
-            }
-            else
-            {
-                return null;
-            }
-        }
-        */
-        private bool _Opener()
-        {
-            if (connection.State == ConnectionState.Open)
-            {
-                return true;
-            }else if (connection.State == ConnectionState.Closed)
-            {
-                connection.Open();
-                return true;
-            }else
-            {
-                return false;
-            }
-        }
- 
-        }
+    }
 }

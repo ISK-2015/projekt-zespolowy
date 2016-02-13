@@ -12,7 +12,7 @@ namespace Movie4You
 {
     public partial class UserSelect : Form
     {
-        private MainForm mainappform;
+        private Main mainappform;
 
         //////////////////////////////////////////
         //NIE INICJALIZOWAĆ BAZY PONOWNIE!      //
@@ -28,7 +28,7 @@ namespace Movie4You
                     database = new Database(pass);
                 }
         */
-        public UserSelect(MainForm parentform)
+        public UserSelect(Main parentform)
         {
             InitializeComponent();
             mainappform = parentform;
@@ -40,13 +40,13 @@ namespace Movie4You
         {
             dataGridView1.DataSource = mainappform.database.Select("*", "tb_client").Tables[0].DefaultView;
         }
-
+        /*
         private void button3_Click(object sender, EventArgs e)
         {
             mainappform.selecteduser(label2.Text);
             this.Close();
         }
-
+        */
         private void button4_Click(object sender, EventArgs e)
         {
             this.Close();

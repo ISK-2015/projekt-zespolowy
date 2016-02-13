@@ -52,7 +52,6 @@ C:\Users\mjechna\Desktop\movie4you\Movie4You\bin\Debug\MySql.Data.dll
 C:\Users\mjechna\Desktop\movie4you\Movie4You\bin\Debug\MySql.Web.dll
 C:\Users\mjechna\Desktop\movie4you\Movie4You\obj\Debug\Movie4You.csprojResolveAssemblyReference.cache
 C:\Users\mjechna\Desktop\movie4you\Movie4You\obj\Debug\Movie4You.About.resources
-C:\Users\mjechna\Desktop\movie4you\Movie4You\obj\Debug\Movie4You.MainForm.resources
 C:\Users\mjechna\Desktop\movie4you\Movie4You\obj\Debug\Movie4You.Properties.Resources.resources
 C:\Users\mjechna\Desktop\movie4you\Movie4You\obj\Debug\Movie4You.TempLoginForm.resources
 C:\Users\mjechna\Desktop\movie4you\Movie4You\obj\Debug\Movie4You.csproj.GenerateResource.Cache
@@ -73,3 +72,7 @@ C:\Users\Patryk\Documents\GitHub\projekt-zespolowy\APP\Movie4You\Movie4You\obj\D
 C:\Users\Patryk\Documents\GitHub\projekt-zespolowy\APP\Movie4You\Movie4You\obj\Debug\Movie4You.TempLoginForm.resources
 C:\Users\Patryk\Documents\GitHub\projekt-zespolowy\APP\Movie4You\Movie4You\obj\Debug\Movie4You.UserSelect.resources
 C:\Users\Patryk\Documents\GitHub\projekt-zespolowy\APP\Movie4You\Movie4You\obj\Debug\Movie4You.csproj.GenerateResource.Cache
+C:\Users\mjechna\Desktop\Movie4You\Movie4You\obj\Debug\Movie4You.Main.resources
+C:\Users\mjechna\Desktop\Movie4You\Movie4You\obj\Debug\Movie4You.Clients.resources
+C:\Users\mjechna\Desktop\Movie4You\Movie4You\obj\Debug\Movie4You.DatabasePassword.resources
+C:\Users\mjechna\Desktop\Movie4You\Movie4You\obj\Debug\Movie4You.Users.resources

@@ -57,11 +57,23 @@
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
     <Compile Include="Classes\Database.cs" />
-    <Compile Include="MainForm.cs">
+    <Compile Include="Clients.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Clients.designer.cs">
+      <DependentUpon>Clients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabasePassword.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <Compile Include="DatabasePassword.designer.cs">
+      <DependentUpon>DatabasePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="Interfaces\IDatabase.cs" />
     <Compile Include="NewUser.cs">
@@ -70,13 +82,19 @@
     <Compile Include="NewUser.Designer.cs">
       <DependentUpon>NewUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Classes\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TempLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="TempLogin.Designer.cs">
       <DependentUpon>TempLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users.designer.cs">
+      <DependentUpon>Users.cs</DependentUpon>
     </Compile>
     <Compile Include="UserSelect.cs">
       <SubType>Form</SubType>
@@ -87,8 +105,14 @@
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <EmbeddedResource Include="Clients.resx">
+      <DependentUpon>Clients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatabasePassword.resx">
+      <DependentUpon>DatabasePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewUser.resx">
       <DependentUpon>NewUser.cs</DependentUpon>
@@ -104,6 +128,9 @@
     </Compile>
     <EmbeddedResource Include="TempLogin.resx">
       <DependentUpon>TempLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users.resx">
+      <DependentUpon>Users.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserSelect.resx">
       <DependentUpon>UserSelect.cs</DependentUpon>
